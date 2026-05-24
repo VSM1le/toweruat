@@ -55,9 +55,9 @@ class ContractSheetExport implements WithCustomStartCell, WithStyles,WithHeading
     public function styles(Worksheet $sheet){
         $customerName = CustomerRental::where('custr_contract_no_real',$this->items->first()->real_contract)->first();
         $logo= new Drawing();
-        $logo->setName('nuam');
-        $logo->setDescription('nuam'); 
-        $logo->setPath(public_path('nuam.jpg'));
+        $logo->setName('BTU');
+        $logo->setDescription('BTU'); 
+        $logo->setPath(public_path('btu.png'));
         $logo->setCoordinates('B1');
         $logo->setWidth(600);
         $logo->setHeight(110);
@@ -65,7 +65,7 @@ class ContractSheetExport implements WithCustomStartCell, WithStyles,WithHeading
         $sheet->getColumnDimension('A')->setWidth(3);
         $sheet->getRowDimension(1)->setRowHeight(42);
         $sheet->mergeCells("A1:I1");
-        $sheet->setCellValue('A1',"บริษัท นวม จำกัด");
+         $sheet->setCellValue('A1',"บริษัท บีทียู พร็อพเพอร์ตี้");
         $sheet->getStyle("A1")->getAlignment()->setHorizontal(Alignment::HORIZONTAL_CENTER);
         $sheet->getStyle("A1")->getAlignment()->setVertical(Alignment::VERTICAL_CENTER);
         $sheet->getStyle("A1")->getFont()->setSize(18);
