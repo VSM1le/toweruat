@@ -1,0 +1,32 @@
+[33ma12051a[m[33m ([m[1;36mHEAD[m[33m)[m HEAD@{0}: checkout: moving from develop to origin/main
+[33m4edf8a9[m[33m ([m[1;32mdevelop[m[33m)[m HEAD@{1}: commit: receip 2
+[33ma12051a[m[33m ([m[1;36mHEAD[m[33m)[m HEAD@{2}: pull origin main: Fast-forward
+[33m35b77e6[m[33m ([m[1;31morigin/develop[m[33m)[m HEAD@{3}: rebase (finish): returning to refs/heads/develop
+[33m35b77e6[m[33m ([m[1;31morigin/develop[m[33m)[m HEAD@{4}: rebase (pick): test develop
+[33m6293f92[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{5}: rebase (start): checkout origin/main
+[33m653eadf[m HEAD@{6}: commit: test develop
+[33me783967[m HEAD@{7}: checkout: moving from develop to develop
+[33me783967[m HEAD@{8}: checkout: moving from main to develop
+[33m6293f92[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{9}: commit: update address
+[33me783967[m HEAD@{10}: checkout: moving from develop to main
+[33me783967[m HEAD@{11}: checkout: moving from develop to develop
+[33me783967[m HEAD@{12}: checkout: moving from main to develop
+[33me783967[m HEAD@{13}: commit: seeder pdf
+[33m81e7716[m HEAD@{14}: commit: fix
+[33md8e1c91[m HEAD@{15}: commit: engpdf
+[33m36eefdf[m HEAD@{16}: pull: Fast-forward
+[33m90eda2b[m HEAD@{17}: commit: edit
+[33mec9a5ac[m HEAD@{18}: commit: service
+[33m97d09f5[m HEAD@{19}: commit: pdf 3
+[33ma69f180[m HEAD@{20}: pull: Fast-forward
+[33m7ea0b0a[m HEAD@{21}: commit: pdf dom
+[33m8a2ee5f[m HEAD@{22}: pull: Fast-forward
+[33mc06b5ab[m HEAD@{23}: commit: dom
+[33mec351c3[m HEAD@{24}: commit: invoice pdf
+[33me732b3b[m HEAD@{25}: commit: service
+[33m17c91d0[m HEAD@{26}: commit: create
+[33m49e6c12[m HEAD@{27}: commit: seeder
+[33m2dba135[m HEAD@{28}: commit: struct create
+[33ma758c6f[m HEAD@{29}: commit: pdf
+[33m1894a94[m HEAD@{30}: Branch: renamed refs/heads/master to refs/heads/main
+[33m1894a94[m HEAD@{32}: commit (initial): first commit
