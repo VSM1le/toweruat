@@ -36,7 +36,7 @@ class Invoice extends Component
     public $invoiceDate = null;
     public $invoiceDetails; 
     public $dueDate = null;
-    public $tower = "A";
+    public $tower = "B";
     public $showCreateInvoice = false;
 
 

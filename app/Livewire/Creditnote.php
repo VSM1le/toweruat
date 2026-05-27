@@ -101,7 +101,7 @@ class Creditnote extends Component
             'creditDetails.*.remark.max'=> 'Remark must not be greater than 80 characters.'
         ]);
         DB::beginTransaction();
-        $prefix = 'CAS';
+        $prefix = 'CBS';
         $year = Carbon::parse($this->creditDate)->format('Y');
         $datePart = substr($year,-2) . Carbon::parse($this->creditDate)->format('m');
         $unite = CustomerRental::where('id',$this->rental)->first();

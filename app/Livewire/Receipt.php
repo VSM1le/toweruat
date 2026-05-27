@@ -34,7 +34,7 @@ class Receipt extends Component
     public $invoiceDetails;
     public $sumCheque = 0; 
     public $disable = true;
-    public $tower = "A";
+    public $tower = "B";
     public $sumWh = 0;
 
     public $showCreateReceipt = false;
