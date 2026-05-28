@@ -189,24 +189,29 @@
         </div>
     @endif 
     <div class="invoice-container">
-        <table class="header" style="padding-bottom:15px">
-            <tr>
-                <td style="vertical-align: top; ">
-                    <img style="margin-left:30px" src="{{ asset('/btu.png') }}" alt="Company Logo">
-                </td>
-                <td class="company-details" style="vertical-align: top;padding-left:25%">
-                    <p style="margin: 0px; font-weight: bold; font-size:24px;line-height:19px;">บริษัท บีทียู อโศก พร็อพเพอร์ตี้ จำกัด</p>
-                    <p style="margin: 0px; font-weight: bold; font-size:20px;line-height:10px;">BTU ASOK PROPERTY Co., Ltd.</p>
-                    <p style="margin: -1px">66 ถนนสุขุมวิท 21 (อโศก) แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110</p>
-                    <p style="margin: -1px">66 Soi Sukhumvit 21 Rd. (Asoke), Nort Khlongton, Watthana, Bangkok, Thailand 10110</p>
-                    <p style="margin: -1px">Tel: 0-2264-2245-7 Fax: 0-2264-2248</p>
-                    <p style="margin: -1px">เลขประจำตัวผู้เสียภาษี 0105569078184&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำนักงานใหญ่(Head Office)</p>
-                </td>       
-                <td class="blank-column"style="vertical-align:top;">
-                    <p><span class="page-number">page{{ $currentPage }}/{{ $sumPage }}</span></p>
-                </td>
-            </tr>
-        </table>
+        <div style="position: relative; width: 100%;">
+
+            <img src="{{ public_path('btu.png') }}" style="position: absolute; left: 30px; top: 30px; width: 150px; height: auto; z-index: 999;" alt="Company Logo">
+
+            <table class="header" style="width: 100%; border-collapse: collapse; padding-bottom: 15px;">
+                <tr>
+                    <td style="vertical-align: top; width: 240px;">&nbsp;</td>
+
+                    <td class="company-details" style="vertical-align: top;padding-left:9%">
+                        <p style="margin: 0px; font-weight: bold; font-size:24px;line-height:19px;">บริษัท บีทียู อโศก พร็อพเพอร์ตี้ จำกัด</p>
+                        <p style="margin: 0px; font-weight: bold; font-size:20px;line-height:10px;">BTU ASOK PROPERTY Co., Ltd.</p>
+                        <p style="margin: -1px">66 ถนนสุขุมวิท 21 (อโศก) แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110</p>
+                        <p style="margin: -1px">66 Soi Sukhumvit 21 Rd. (Asoke), Nort Khlongton, Watthana, Bangkok, Thailand 10110</p>
+                        <p style="margin: -1px">Tel: 0-2264-2245-7 Fax: 0-2264-2248</p>
+                        <p style="margin: -1px">เลขประจำตัวผู้เสียภาษี 0105569078184&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำนักงานใหญ่(Head Office)</p>
+                    </td>
+
+                    <td class="blank-column" style="vertical-align: top; width: 80px; text-align: right;">
+                        <p style="margin: 0;"><span class="page-number" style="font-size: 13px;">page{{ $currentPage }}/{{ $sumPage }}</span></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
         <div class="invoice-details" style="padding-bottom: 8px">
             <p style="margin: -5px;font-size:24px;line-height:10px;"><strong>ใบลดหนี้/ใบกำกับภาษี</strong></p>
             <p style="margin: -5px;font-size:24px;line-height:18px"><strong>ORIGINAL CREDIT NOTE/ TAX INVOICE</strong></p>
