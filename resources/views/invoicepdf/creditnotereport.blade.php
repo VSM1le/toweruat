@@ -89,14 +89,14 @@
 </head>
 <body>
     <div class="report-container">
-        {{-- <h1>บริษัท นวม จำกัด</h1> --}}
+        {{-- <h1>บริษัท บีทียู อโศก พร็อพเพอร์ตี้ จำกัด</h1> --}}
         {{-- <h2>รายงานใบเเจ้งหนี้บัญชี</h2> --}}
         <table>
              <thead>
                 <tr >
                     <th style="background-color:white;"></th>
                     <th style="text-align: center; background-color:white;">
-                        <p>บริษัท นวม จำกัด</p>
+                        <p>บริษัท บีทียู อโศก พร็อพเพอร์ตี้ จำกัด</p>
                         <p style="line-height: 10px">Credit Note report</p>
                         <p style="line-height: 10px">{{$dateFrom}} - {{$dateTo}}</p>
                     </th>

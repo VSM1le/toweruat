@@ -89,7 +89,7 @@
 </head>
 <body>
     <div class="report-container">
-        {{-- <h1>บริษัท นวม จำกัด</h1> --}}
+        {{-- <h1>บริษัท บีทียู อโศก พร็อพเพอร์ตี้ จำกัด</h1> --}}
         {{-- <h2>รายงานใบเเจ้งหนี้บัญชี</h2> --}}
         <table style="width: 100%;">
             <thead>
@@ -99,7 +99,7 @@
                     
                     <!-- Middle content -->
                     <th style="text-align: center; background-color:white; width: 33%;">
-                        <p>บริษัท นวม จำกัด</p>
+                        <p>บริษัท บีทียู อโศก พร็อพเพอร์ตี้ จำกัด</p>
                         <p style="line-height: 10px">รายงานใบเสร็จรับเงิน 
                         <p style="line-height: 10px">{{ $startDate }} - {{ $endDate }}</p>
                     </th>

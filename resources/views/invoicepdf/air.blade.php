@@ -106,7 +106,7 @@
                     <img style="margin-left:30px" src="{{ asset('/btu.png') }}" alt="Company Logo">
                 </td>
                 <td class="company-details" style="vertical-align: top;padding-right:100px">
-                    <p style="padding-right:10px;text-align:center; margin: 0px; font-weight: bold; font-size:28px;line-height:19px;">บริษัท นวม จำกัด</p>
+                    <p style="padding-right:10px;text-align:center; margin: 0px; font-weight: bold; font-size:28px;line-height:19px;">บริษัท บีทียู อโศก พร็อพเพอร์ตี้ จำกัด</p>
                     <p style="text-align:center; margin: 0px; font-weight: bold; font-size:28px;line-height:19px;">
                         @if ($typeQuery == "7")
                         รายงานการใช้ไอเย็นล่วงเวลา 

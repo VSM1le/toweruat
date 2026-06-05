@@ -94,7 +94,7 @@
                 <tr >
                     <th style="background-color:white;"></th>
                     <th style="text-align: center; background-color:white;">
-                        <p>บริษัท นวม จำกัด</p>
+                        <p>บริษัท บีทียู อโศก พร็อพเพอร์ตี้ จำกัด</p>
                         <p style="line-height: 10px">รายงานใบเเจ้งหนี้บัญชี</p>
                     </th>
                     <th style="background-color:white;"></th>
