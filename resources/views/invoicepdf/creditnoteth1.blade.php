@@ -201,7 +201,7 @@
                         <p style="margin: 0px; font-weight: bold; font-size:24px;line-height:19px;">บริษัท บีทียู อโศก พร็อพเพอร์ตี้ จำกัด</p>
                         <p style="margin: 0px; font-weight: bold; font-size:20px;line-height:10px;">BTU ASOK PROPERTY Co., Ltd.</p>
                         <p style="margin: -1px">66 ถนนสุขุมวิท 21 (อโศก) แขวงคลองเตยเหนือ เขตวัฒนา กรุงเทพมหานคร 10110</p>
-                        <p style="margin: -1px">66 Soi Sukhumvit 21 Rd. (Asoke), Nort Khlongtoei, Watthana, Bangkok, Thailand 10110</p>
+                        <p style="margin: -1px">66 Sukhumvit 21 Rd. (Asoke), Nort Khlongtoei, Watthana, Bangkok, Thailand 10110</p>
                         <p style="margin: -1px">Tel: 0-2264-2245-7 Fax: 0-2264-2248</p>
                         <p style="margin: -1px">เลขประจำตัวผู้เสียภาษี 0105569078184&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;สำนักงานใหญ่(Head Office)</p>
                     </td>
