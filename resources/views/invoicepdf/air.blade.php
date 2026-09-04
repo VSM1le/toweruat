@@ -130,7 +130,7 @@
             </tr> 
             <tr>
                 <td>
-                    <p class="desc">Building : อาคารนวม</p>
+                    <p class="desc">Building : อาคาร บีทียู อโศก</p>
                 </td>
 
             </tr>
