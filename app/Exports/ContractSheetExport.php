@@ -95,7 +95,7 @@ class ContractSheetExport implements WithCustomStartCell, WithStyles,WithHeading
         $sheet->getColumnDimension('C')->setWidth(19);
         $sheet->setCellValue("C4",Carbon::parse($this->items->first()->due_date)
                                         ->format('d-m-Y'));
-        $sheet->setCellValue("C5",'อาคารนวม');
+        $sheet->setCellValue("C5",'อาคาร บีทียู อโศก');
         $sheet->setCellValue("C6",$customerName->customer->cust_name_th ." (เลขที่สัญญา ".$this->items->first()->real_contract.")");
         // $sheet->setCellValue("C7",$this->items->first()->due_date);
         $sheet->getColumnDimension('D')->setWidth(25);
